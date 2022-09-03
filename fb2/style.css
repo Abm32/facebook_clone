@@ -175,12 +175,22 @@ a {
     height: 64px;
 }
 .form1 {
-    width: 396px;
     height: 349px;
+    margin-left: 12px;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
 }
 .formn {
-    width: 396px;
+    width: 371px;
     height: 315px;
+    margin-left: 13px;
 }
 .emailp {
     width: 364px;
@@ -237,7 +247,78 @@ a {
 .vutton {
     padding-top: 6px;
     text-align: left;
-    width: 396px;
+    width: 371px;
     height: 54px;
-    
+}
+.fp {
+    width: 371px;
+    height: 18.75px;
+    text-align: center;
+}
+.afp {
+    width: 131px;
+    height: 16px;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.fflex {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 0px;
+    text-align: center;
+}
+.cna {
+    width: 371px;
+    height: 54px;
+    text-align: center;
+}
+.crb {
+    width: 196px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    margin-left: 74px;
+}
+.form2 {
+    width: 396px;
+    height: 70px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+.regis {
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
 }
