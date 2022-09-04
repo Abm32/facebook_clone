@@ -1,3 +1,6 @@
+body {
+    background: #f0f2f5;
+}
 .fb2 {
     height: 65px;
     max-width: 100%;
@@ -80,6 +83,7 @@
     height: 150px;
     background-color: blue;
     float: left;
+    background: white;
 }
 .img2 {
     align-items: center;
